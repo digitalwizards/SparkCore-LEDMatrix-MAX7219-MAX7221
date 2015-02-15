@@ -3,17 +3,19 @@ Spark Core library for control 8x8 LED matrices using MAX7219 / MAX7221.<br>
 Depends on [digitalwizards/SparkCore-Adafruit-GFX-Library](https://github.com/digitalwizards/SparkCore-Adafruit-GFX-Library).
 
 ## Features
-* uses Adafruit_GFX library which provides basic graphics methods (draw/fill circles, triangles, chars, etc.)
-* allow to set transformations (rotating, mirroring) and position for each display
+* uses Adafruit_GFX library which provides basic graphics methods<br>
+* (draw/fill circles, triangles, chars, etc.)
+* allows to set transformations (rotating, mirroring) and position for each display
 * provides direct access to the whole bitmap, independent on display transformations
 * transformation buffers and flushing whole bitmap at once avoid flickering
+* possible to choose pins for CLK, CS, D_OUT (= CLK, SS, MOSI)
 * bitmaps are implemented as byte arrays for minimalizing memory usage<br>
 (some memory has been sacrificed for trans. buffers and direct access to the unchanged bitmap)
 
 ### Using with [Spark Dev](https://www.spark.io/dev)
-1. Create project folder.
+1. Create a project folder.
 2. The folder must contains **LEDMatrix.cpp**, **LEDMatrix.h** from this repository<br>
-and **Adafruit_GFX.cpp**, **Adafruit_GFX.h**, **glcdfont.c** from [SparkCore-Adafruit-GFX-Library](https://github.com/digitalwizards/SparkCore-Adafruit-GFX-Library)
+and **Adafruit_GFX.cpp**, **Adafruit_GFX.h**, **glcdfont.c** from [SparkCore-Adafruit-GFX-Library](https://github.com/digitalwizards/SparkCore-Adafruit-GFX-Library).
 3. Include licenses.
 
 ### Initializing
@@ -55,7 +57,7 @@ Direct access to the bitmap:
 // turn off pixel
 led->bitmap->setPixel(3, 1, false);
 bool val = led->bitmap->getPixel(3, 1);
-led->bitmap->togglePixel(3, 1, false);
+led->bitmap->togglePixel(3, 1);
 led->bitmap->getWidth();
 led->bitmap->getHeight();
 ```
