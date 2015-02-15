@@ -4,7 +4,7 @@ Depends on [digitalwizards/SparkCore-Adafruit-GFX-Library](https://github.com/di
 
 ## Features
 * uses Adafruit_GFX library which provides basic graphics methods<br>
-* (draw/fill circles, triangles, chars, etc.)
+(draw/fill circles, triangles, chars, etc.)
 * allows to set transformations (rotating, mirroring) and position for each display
 * provides direct access to the whole bitmap, independent on display transformations
 * transformation buffers and flushing whole bitmap at once avoid flickering
