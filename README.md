@@ -79,7 +79,7 @@ delete led;
 ```
 
 ### Example
-**Example.ino** contains the implementation of a simple scrolling text and function for drawing a heart symbol.
+[Example.ino](Example.ino) contains the implementation of a simple scrolling text and function for drawing a heart symbol.
 
 ### Inspiration
 * [markruys/arduino-Max72xxPanel](https://github.com/markruys/arduino-Max72xxPanel)
