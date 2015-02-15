@@ -9,7 +9,7 @@ Depends on [digitalwizards/SparkCore-Adafruit-GFX-Library](https://github.com/di
 * provides direct access to the whole bitmap, independent on display transformations
 * transformation buffers and flushing whole bitmap at once avoid flickering
 * possible to choose pins for CLK, CS, D_OUT (= CLK, SS, MOSI)
-* bitmaps are implemented as byte arrays for minimalizing memory usage<br>
+* bitmaps are implemented as bit arrays for minimalizing memory usage<br>
 (some memory has been sacrificed for trans. buffers and direct access to the unchanged bitmap)
 
 ### Using with [Spark Dev](https://www.spark.io/dev)
