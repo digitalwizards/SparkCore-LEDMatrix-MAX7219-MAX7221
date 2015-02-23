@@ -1,0 +1,7 @@
+{
+  "name": "ledmatrix-max7219-max7221",
+  "author": "Digital Wizards Group <kavik@dwgroup.cz>",
+  "license": "BSD",
+  "version": "0.0.10",
+  "description": "Library for control 8x8 LED matrices using MAX7219 / MAX7221. Uses Adafruit GFX library."
+}
