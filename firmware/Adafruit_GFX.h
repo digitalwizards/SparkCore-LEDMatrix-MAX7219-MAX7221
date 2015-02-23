@@ -2,7 +2,7 @@
 #define _ADAFRUIT_GFX_H
 
 #include "application.h"
-#include "glcdfont.c"
+#include "glcdfont.cpp"
 
 #define swap(a, b) { int16_t t = a; a = b; b = t; }
 
