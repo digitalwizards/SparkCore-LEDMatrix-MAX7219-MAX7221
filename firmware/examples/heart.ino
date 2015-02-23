@@ -1,4 +1,4 @@
-#include "LEDMatrix.h"
+#include "ledmatrix-max7219-max7221.h"
 
 LEDMatrix *led;
 

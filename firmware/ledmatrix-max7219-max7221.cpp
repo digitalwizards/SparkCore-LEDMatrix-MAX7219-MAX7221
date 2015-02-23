@@ -1,4 +1,4 @@
-#include "LEDMatrix.h"
+#include "ledmatrix-max7219-max7221.h"
 
 LEDMatrix::LEDMatrix(int horizDisplays, int vertDisplays, int pinCLK, int pinCS, int pinD_OUT)
  : Adafruit_GFX(horizDisplays*8, vertDisplays*8)
