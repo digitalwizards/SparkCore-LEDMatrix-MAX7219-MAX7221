@@ -13,7 +13,7 @@ Spark Core library for control 8x8 LED matrices using MAX7219 / MAX7221.<br>
 
 ### Using with [Spark Dev](https://www.spark.io/dev)
 1. Create a project folder.
-2. The folder must contains **LEDMatrix.cpp**, **LEDMatrix.h**<br>
+2. The folder must contains **ledmatrix-max7219-max7221.cpp**, **ledmatrix-max7219-max7221.h**<br>
 and **Adafruit_GFX.cpp**, **Adafruit_GFX.h**, **glcdfont.c** from [SparkCore-Adafruit-GFX-Library](https://github.com/digitalwizards/SparkCore-Adafruit-GFX-Library)<br>
 (everything included in [firmware](firmware) folder).
 3. Include [license.txt](license.txt) and [text required by Adafruit GFX library](#text-required-by-adafruit-gfx-library).
