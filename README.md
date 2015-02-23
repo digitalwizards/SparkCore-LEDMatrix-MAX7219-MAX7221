@@ -1,6 +1,5 @@
-# SparkCore-LEDMatrix 0.1
+# SparkCore-LEDMatrix
 Spark Core library for control 8x8 LED matrices using MAX7219 / MAX7221.<br>
-Depends on [digitalwizards/SparkCore-Adafruit-GFX-Library](https://github.com/digitalwizards/SparkCore-Adafruit-GFX-Library).
 
 ## Features
 * uses Adafruit_GFX library which provides basic graphics methods<br>
@@ -14,9 +13,10 @@ Depends on [digitalwizards/SparkCore-Adafruit-GFX-Library](https://github.com/di
 
 ### Using with [Spark Dev](https://www.spark.io/dev)
 1. Create a project folder.
-2. The folder must contains **LEDMatrix.cpp**, **LEDMatrix.h** from this repository<br>
-and **Adafruit_GFX.cpp**, **Adafruit_GFX.h**, **glcdfont.c** from [SparkCore-Adafruit-GFX-Library](https://github.com/digitalwizards/SparkCore-Adafruit-GFX-Library).
-3. Include licenses.
+2. The folder must contains **LEDMatrix.cpp**, **LEDMatrix.h**<br>
+and **Adafruit_GFX.cpp**, **Adafruit_GFX.h**, **glcdfont.c** from [SparkCore-Adafruit-GFX-Library](https://github.com/digitalwizards/SparkCore-Adafruit-GFX-Library)<br>
+(everything included in [firmware](firmware) folder).
+3. Include [license.txt](license.txt) and [text required by Adafruit GFX library](#text-required-by-adafruit-gfx-library).
 
 ### Initializing
 1) Include header file:
@@ -79,7 +79,7 @@ delete led;
 ```
 
 ### Example
-[Example.ino](Example.ino) contains the implementation of a simple scrolling text and function for drawing a heart symbol.
+[heart.ino](firmware/examples/heart.ino) contains the implementation of a simple scrolling text and function for drawing a heart symbol.
 
 ### Inspiration
 * [markruys/arduino-Max72xxPanel](https://github.com/markruys/arduino-Max72xxPanel)
@@ -87,3 +87,14 @@ delete led;
 
 ## Feedback
 Suggestions for new features, reporting bugs and other contributions will be very much appreciated!
+
+<br><hr>
+### Text required by Adafruit GFX library:
+```
+This is the core graphics library for all our displays, providing a common set of graphics primitives (points, lines, circles, etc.).  It needs to be paired with a hardware-specific library for each display device we carry (to handle the lower-level functions).
+
+Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!
+
+Written by Limor Fried/Ladyada for Adafruit Industries.
+BSD license, check license.txt for more information.
+```
