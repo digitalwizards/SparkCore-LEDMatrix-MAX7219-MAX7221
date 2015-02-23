@@ -1,4 +1,11 @@
-#include "ledmatrix-max7219-max7221.h"
+/*
+  Example
+  
+  Scrolling text and simple vector drawing
+*/
+
+// subdirectory is required for Spark WEB IDE
+#include "ledmatrix-max7219-max7221/ledmatrix-max7219-max7221.h"
 
 LEDMatrix *led;
 
