@@ -26,6 +26,10 @@ and **Adafruit_GFX.cpp**, **Adafruit_GFX.h**, **glcdfont.cpp** from [SparkCore-A
 ```C++
 #include "ledmatrix-max7219-max7221.h"
 ```
+  Or for development with [Spark WEB IDE](https://www.spark.io/build):
+```C++
+#include "ledmatrix-max7219-max7221/ledmatrix-max7219-max7221.h"
+```
 2) Create instance:
 ```C++
 // 1 display per row, 1 display per column
