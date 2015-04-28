@@ -65,8 +65,8 @@ Direct access to the bitmap:
 led->bitmap->setPixel(3, 1, false);
 bool val = led->bitmap->getPixel(3, 1);
 led->bitmap->togglePixel(3, 1);
-led->bitmap->getWidth();
-led->bitmap->getHeight();
+int width = led->bitmap->getWidth();
+int height = led->bitmap->getHeight();
 ```
 
 ### Bitmap changes
@@ -85,7 +85,9 @@ And free memory:
 delete led;
 ```
 
-### Example
+### Examples
+[smile.ino](firmware/examples/smile.ino) - example of drawing a simple face 
+
 [heart.ino](firmware/examples/heart.ino) contains the implementation of a simple scrolling text and function for drawing a heart symbol.
 
 ### Inspiration
