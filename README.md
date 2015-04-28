@@ -24,7 +24,7 @@ and **Adafruit_GFX.cpp**, **Adafruit_GFX.h**, **glcdfont.cpp** from [SparkCore-A
 ### Initializing
 1) Include header file:
 ```C++
-#include "LEDMatrix.h"
+#include "ledmatrix-max7219-max7221.h"
 ```
 2) Create instance:
 ```C++
